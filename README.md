@@ -6,21 +6,21 @@ A script that rearranges electronic zines. Print and read!
 
 ```plaintext
 +-----+            +-----+
-|  p  |            |  q  |
+|  p  1            | qqq 4
 +-----+            + - - +
-| p p |            |  p  |
+| p p 2            | ppp 5
 +-----+            +-----+
-| q q |            | b b |
+| q q 3            | d d 3
 +-----+            + - - +
-|  q  |            | d d |
+| qqq 4            | b b 6
 +-----+    --->    +-----+
-|  p  |            | p p |
+| ppp 5            | p p 2
 +-----+            + - - +
-| p p |            | q q |
+| p p 6            | q q 7
 +-----+            +-----+
-| q q |            |  b  |
+| q q 7            |  d  1
 +-----+            + - - +
-|  q  |            |  d  |
+|  q  8            |  b  8
 +-----+            +-----+
 ```
 
